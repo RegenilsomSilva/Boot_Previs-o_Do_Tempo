@@ -126,7 +126,7 @@ class Tempo_Atual:
                 self.nova_linha =f' 🌡️ Previsão para o Próximo dia: {self.previsao_para_os_proximos_dias[indice].text}, Maxíma de: {self.Temperatura_Maxima[indice].text}Graus, Miníma de: {self.Temperatura_Minim[indice].text}Graus'
                 print(self.nova_linha + os.linesep)
                 #  Iremos 
-                self.previsoes_proximo_3_dias.append(self.nova_linha + os.linesep +os.linesep )
+                self.previsoes_proximo_3_dias.append(self.nova_linha  +os.linesep )
                 #  Iremos Subdvidir as informações acima 
                 print(os.linesep)
                 self.X1_Para_Novo_Dia = f' 🌡️ Previsão para o Próximo dia: {self.previsao_para_os_proximos_dias[indice].text}'
