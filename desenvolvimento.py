@@ -3,6 +3,7 @@ import logging
 from rich.logging import RichHandler
 from rich import print
 import os 
+import pprint
 
 
 # Configurando o formato do log via Rich loggin 
@@ -35,6 +36,14 @@ log.warning('Atenção, Bem- Vimdo, Regis!!!!')
 print('Esta caro.....')
 log.debug('Adicionamos mais uma função.....')
 log.warning('[italic red] foi criado uma pasta ou Diretório')
+
+italico ='[italic green]'
+
+log.info('oiiiiii')
+print(os.linesep)
+
+# =========================================================================;
+
 
 
 
