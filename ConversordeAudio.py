@@ -1,11 +1,15 @@
 
 import speech_recognition as sr
 import os
+
+
+print('Inicializa o reconhecedor')
 def audio_para_texto(caminho_audio):
     # Inicializa o reconhecedor
     recognizer = sr.Recognizer()
 
     # Abre o arquivo de áudio
+    print('Função que abre o arquivo de áudio....')
     with sr.AudioFile(caminho_audio) as source:
         audio = recognizer.record(source)  # Lê o áudio do arquivo
 
