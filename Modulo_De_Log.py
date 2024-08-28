@@ -22,6 +22,9 @@ class LogModulo():
             #  logging.FileHandler("arquivoDeLog.log",mode='w')    # Salva as mensagens no arquivo de log
         ]
     )
-registro =LogModulo()
+
+# registro =LogModulo() Backup- Funcionando
+# Cria o logger
+log = logging.getLogger("rich")
 
 
