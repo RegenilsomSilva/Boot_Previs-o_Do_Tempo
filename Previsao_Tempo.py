@@ -15,6 +15,7 @@ import random
 from dotenv import load_dotenv, find_dotenv
 from rich import print
 from Modulo_De_Log import log
+import glob
 
 
 # Carregar as variáveis de ambiente do arquivo .env
@@ -208,7 +209,20 @@ def executar_automacao():
                 </html>
                 '''
                 mail.set_content(mensagem, subtype='html')
+# -----------------------------------------------------------------------------------------------
+                print(f'**********CONFIGURADOR DE ANEXO DE LOGS **********{os.linesep}')
+                    
+                attachment_dir = os.path.join(os.getcwd(), 'LOGS_ARQUIVOS')  # Anexar arquivos de Logs
+                files = glob.glob(os.path.join(attachment_dir, '*'))  
+                for file_path in files:
+                    with open(file_path, 'rb') as file:
+                        mail.add_attachment(
+                            file.read(), maintype='application', subtype='octet-stream', filename=os.path.basename(file_path))
+                print(f'⏳ Acabamos de fazer a Manipulação dos arquivos...... ⏳{os.linesep}....Aguarde{os.linesep}')
+                sleep(random.randint(1,2))   
 
+
+# -----------------------------------------------------------------------------------------------
                 log.info('Preparando a mensagem com a previsão do tempo.')
                 for destinatario in destinatario:
                     mail['to'] = destinatario

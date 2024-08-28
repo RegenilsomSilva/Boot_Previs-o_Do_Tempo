@@ -1,275 +1,275 @@
-[28/08/2024 14:51] - Running job Job(interval=1, unit=days, do=executar_automacao, args=(), kwargs={})
-[28/08/2024 14:51] - ====== WebDriver manager ======
-[28/08/2024 14:52] - Driver [C:\Users\RegenilsonSilveira\.wdm\drivers\edgedriver\win64\128.0.2739.42\msedgedriver.exe] found in cache
-[28/08/2024 14:52] - Skipping Selenium Manager; path to MicrosoftEdge driver specified in Service class: C:\Users\RegenilsonSilveira\.wdm\drivers\edgedriver\win64\128.0.2739.42\msedgedriver.exe
-[28/08/2024 14:52] - Started executable: `C:\Users\RegenilsonSilveira\.wdm\drivers\edgedriver\win64\128.0.2739.42\msedgedriver.exe` in a child process with pid: 14444 using 0 to output -3
-[28/08/2024 14:52] - POST http://localhost:52682/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'MicrosoftEdge', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'ms:edgeOptions': {'extensions': [], 'args': ['--lang=pt-BR', '--headless', 'disable-notifications', 'ignore-certificate-errors', '--ignore-ssl-errors']}}}}
-[28/08/2024 14:52] - Starting new HTTP connection (1): localhost:52682
-[28/08/2024 14:52] - http://localhost:52682 "POST /session HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"MicrosoftEdge","browserVersion":"128.0.2739.42","fedcm:accounts":true,"ms:edgeOptions":{"debuggerAddress":"localhost:52686"},"msedge":{"msedgedriverVersion":"128.0.2739.42 (e015505d79c9432c75e2a9131c445776c61af592)","userDataDir":"C:\\Users\\REGENI~1\\AppData\\Local\\Temp\\scoped_dir14444_1950818454"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"935138a49fcbc1aaa86f7052c5f437c0"}} | headers=HTTPHeaderDict({'Content-Length': '857', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - O Dotenv é uma biblioteca Python que permite carregar variáveis de ambiente a partir de um arquivo .env.
-[28/08/2024 14:52] - Configuração de Login 
+[28/08/2024 15:45] - Running job Job(interval=1, unit=days, do=executar_automacao, args=(), kwargs={})
+[28/08/2024 15:45] - ====== WebDriver manager ======
+[28/08/2024 15:45] - Driver [C:\Users\RegenilsonSilveira\.wdm\drivers\edgedriver\win64\128.0.2739.42\msedgedriver.exe] found in cache
+[28/08/2024 15:45] - Skipping Selenium Manager; path to MicrosoftEdge driver specified in Service class: C:\Users\RegenilsonSilveira\.wdm\drivers\edgedriver\win64\128.0.2739.42\msedgedriver.exe
+[28/08/2024 15:45] - Started executable: `C:\Users\RegenilsonSilveira\.wdm\drivers\edgedriver\win64\128.0.2739.42\msedgedriver.exe` in a child process with pid: 10716 using 0 to output -3
+[28/08/2024 15:45] - POST http://localhost:53920/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'MicrosoftEdge', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'ms:edgeOptions': {'extensions': [], 'args': ['--lang=pt-BR', '--headless', 'disable-notifications', 'ignore-certificate-errors', '--ignore-ssl-errors']}}}}
+[28/08/2024 15:45] - Starting new HTTP connection (1): localhost:53920
+[28/08/2024 15:45] - http://localhost:53920 "POST /session HTTP/1.1" 200 0
+[28/08/2024 15:45] - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"MicrosoftEdge","browserVersion":"128.0.2739.42","fedcm:accounts":true,"ms:edgeOptions":{"debuggerAddress":"localhost:53923"},"msedge":{"msedgedriverVersion":"128.0.2739.42 (e015505d79c9432c75e2a9131c445776c61af592)","userDataDir":"C:\\Users\\REGENI~1\\AppData\\Local\\Temp\\scoped_dir10716_579521381"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"63f26354e9e7d216a6b9eb21a11d217e"}} | headers=HTTPHeaderDict({'Content-Length': '856', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:45] - Finished Request
+[28/08/2024 15:45] - O Dotenv é uma biblioteca Python que permite carregar variáveis de ambiente a partir de um arquivo .env.
+[28/08/2024 15:45] - Configuração de Login 
 
-[28/08/2024 14:52] - POST http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/window/maximize {}
-[28/08/2024 14:52] - http://localhost:52682 "POST /session/935138a49fcbc1aaa86f7052c5f437c0/window/maximize HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":{"height":1593,"width":2102,"x":9,"y":9}} | headers=HTTPHeaderDict({'Content-Length': '50', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - POST http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/url {'url': 'https://www.tempo.com/guarulhos-civ-mil.htm'}
-[28/08/2024 14:52] - http://localhost:52682 "POST /session/935138a49fcbc1aaa86f7052c5f437c0/url HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - Dentro de Condições Meteorológicas
-[28/08/2024 14:52] - POST http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/elements {'using': 'xpath', 'value': '//*[starts-with(text(),"Previsão do tempo Guarulhos - SP")]'}
-[28/08/2024 14:52] - http://localhost:52682 "POST /session/935138a49fcbc1aaa86f7052c5f437c0/elements HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.113"}]} | headers=HTTPHeaderDict({'Content-Length': '129', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - Encontramos....🎙️
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.113/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.113/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"Previsão do tempo Guarulhos - SP"} | headers=HTTPHeaderDict({'Content-Length': '45', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - Sua Cidade é 🇧🇷 : Previsão do tempo Guarulhos - SP
-[28/08/2024 14:52] - 
+[28/08/2024 15:45] - POST http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/window/maximize {}
+[28/08/2024 15:45] - http://localhost:53920 "POST /session/63f26354e9e7d216a6b9eb21a11d217e/window/maximize HTTP/1.1" 200 0
+[28/08/2024 15:45] - Remote response: status=200 | data={"value":{"height":1593,"width":2102,"x":9,"y":9}} | headers=HTTPHeaderDict({'Content-Length': '50', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:45] - Finished Request
+[28/08/2024 15:45] - POST http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/url {'url': 'https://www.tempo.com/guarulhos-civ-mil.htm'}
+[28/08/2024 15:46] - http://localhost:53920 "POST /session/63f26354e9e7d216a6b9eb21a11d217e/url HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - Dentro de Condições Meteorológicas
+[28/08/2024 15:46] - POST http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/elements {'using': 'xpath', 'value': '//*[starts-with(text(),"Previsão do tempo Guarulhos - SP")]'}
+[28/08/2024 15:46] - http://localhost:53920 "POST /session/63f26354e9e7d216a6b9eb21a11d217e/elements HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.120"}]} | headers=HTTPHeaderDict({'Content-Length': '129', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - Encontramos....🎙️
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.120/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.120/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"Previsão do tempo Guarulhos - SP"} | headers=HTTPHeaderDict({'Content-Length': '45', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - Sua Cidade é 🇧🇷 : Previsão do tempo Guarulhos - SP
+[28/08/2024 15:46] - 
 
-[28/08/2024 14:52] - POST http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/elements {'using': 'xpath', 'value': '//span[@class="dato-temperatura changeUnitT"]'}
-[28/08/2024 14:52] - http://localhost:52682 "POST /session/935138a49fcbc1aaa86f7052c5f437c0/elements HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.114"}]} | headers=HTTPHeaderDict({'Content-Length': '129', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - POST http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/elements {'using': 'xpath', 'value': '//span[@class="sensacion changeUnitT"]'}
-[28/08/2024 14:52] - http://localhost:52682 "POST /session/935138a49fcbc1aaa86f7052c5f437c0/elements HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.115"}]} | headers=HTTPHeaderDict({'Content-Length': '129', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - 🌡️ Encontramos. -> TEMPERATURA ATUAL 🌡️
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.114/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.114/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"19°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.114/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.114/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"19°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - 🌞 Hoje a Temperatura Atual da sua Cidade é: 19° Graus
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.115/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.115/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"Sensação de 19°"} | headers=HTTPHeaderDict({'Content-Length': '30', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.115/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.115/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"Sensação de 19°"} | headers=HTTPHeaderDict({'Content-Length': '30', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - ⛅ Sensação Termica da sua Cidade é 🌡️ de : Sensação de 19° Graus
-[28/08/2024 14:52] - 
+[28/08/2024 15:46] - POST http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/elements {'using': 'xpath', 'value': '//span[@class="dato-temperatura changeUnitT"]'}
+[28/08/2024 15:46] - http://localhost:53920 "POST /session/63f26354e9e7d216a6b9eb21a11d217e/elements HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.121"}]} | headers=HTTPHeaderDict({'Content-Length': '129', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - POST http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/elements {'using': 'xpath', 'value': '//span[@class="sensacion changeUnitT"]'}
+[28/08/2024 15:46] - http://localhost:53920 "POST /session/63f26354e9e7d216a6b9eb21a11d217e/elements HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.122"}]} | headers=HTTPHeaderDict({'Content-Length': '129', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - 🌡️ Encontramos. -> TEMPERATURA ATUAL 🌡️
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.121/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.121/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"18°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.121/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.121/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"18°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - 🌞 Hoje a Temperatura Atual da sua Cidade é: 18° Graus
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.122/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.122/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"Sensação de 18°"} | headers=HTTPHeaderDict({'Content-Length': '30', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.122/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.122/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"Sensação de 18°"} | headers=HTTPHeaderDict({'Content-Length': '30', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - ⛅ Sensação Termica da sua Cidade é 🌡️ de : Sensação de 18° Graus
+[28/08/2024 15:46] - 
 
-[28/08/2024 14:52] - POST http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/execute/sync {'script': 'window.scrollTo(0, 200);', 'args': []}
-[28/08/2024 14:52] - http://localhost:52682 "POST /session/935138a49fcbc1aaa86f7052c5f437c0/execute/sync HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - Criamos uma LISTA vazia, que irá receber as previsões futuras.
-[28/08/2024 14:52] - POST http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/elements {'using': 'xpath', 'value': '//span[@class="subtitle-m"]'}
-[28/08/2024 14:52] - http://localhost:52682 "POST /session/935138a49fcbc1aaa86f7052c5f437c0/elements HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.163"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.164"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.165"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.166"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.167"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.168"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.169"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - POST http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/elements {'using': 'xpath', 'value': '//span[@class="max changeUnitT"]'}
-[28/08/2024 14:52] - http://localhost:52682 "POST /session/935138a49fcbc1aaa86f7052c5f437c0/elements HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.170"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.171"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.172"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.173"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.174"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.175"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.176"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - POST http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/elements {'using': 'xpath', 'value': '//span[@class="min changeUnitT"]'}
-[28/08/2024 14:52] - http://localhost:52682 "POST /session/935138a49fcbc1aaa86f7052c5f437c0/elements HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.177"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.178"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.179"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.180"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.181"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.182"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.183"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.165/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.165/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"30 Ago."} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.172/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.172/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"27°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.179/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.179/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"11°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - 🌡️ Previsão para o Próximo dia: 30 Ago., Máxima de: 27°Graus, Mínima de: 11°Graus
+[28/08/2024 15:46] - POST http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/execute/sync {'script': 'window.scrollTo(0, 200);', 'args': []}
+[28/08/2024 15:46] - http://localhost:53920 "POST /session/63f26354e9e7d216a6b9eb21a11d217e/execute/sync HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - Criamos uma LISTA vazia, que irá receber as previsões futuras.
+[28/08/2024 15:46] - POST http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/elements {'using': 'xpath', 'value': '//span[@class="subtitle-m"]'}
+[28/08/2024 15:46] - http://localhost:53920 "POST /session/63f26354e9e7d216a6b9eb21a11d217e/elements HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.127"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.128"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.129"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.130"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.131"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.132"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.133"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - POST http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/elements {'using': 'xpath', 'value': '//span[@class="max changeUnitT"]'}
+[28/08/2024 15:46] - http://localhost:53920 "POST /session/63f26354e9e7d216a6b9eb21a11d217e/elements HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.134"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.135"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.136"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.137"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.138"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.139"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.140"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - POST http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/elements {'using': 'xpath', 'value': '//span[@class="min changeUnitT"]'}
+[28/08/2024 15:46] - http://localhost:53920 "POST /session/63f26354e9e7d216a6b9eb21a11d217e/elements HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.141"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.142"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.143"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.144"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.145"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.146"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.147"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.129/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.129/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"30 Ago."} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.136/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.136/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"27°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.143/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.143/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"11°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - 🌡️ Previsão para o Próximo dia: 30 Ago., Máxima de: 27°Graus, Mínima de: 11°Graus
 
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.165/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.165/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"30 Ago."} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.172/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.172/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"27°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.179/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.179/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"11°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - POST http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/elements {'using': 'xpath', 'value': '//span[@class="subtitle-m"]'}
-[28/08/2024 14:52] - http://localhost:52682 "POST /session/935138a49fcbc1aaa86f7052c5f437c0/elements HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.163"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.164"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.165"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.166"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.167"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.168"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.169"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - POST http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/elements {'using': 'xpath', 'value': '//span[@class="max changeUnitT"]'}
-[28/08/2024 14:52] - http://localhost:52682 "POST /session/935138a49fcbc1aaa86f7052c5f437c0/elements HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.170"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.171"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.172"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.173"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.174"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.175"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.176"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - POST http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/elements {'using': 'xpath', 'value': '//span[@class="min changeUnitT"]'}
-[28/08/2024 14:52] - http://localhost:52682 "POST /session/935138a49fcbc1aaa86f7052c5f437c0/elements HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.177"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.178"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.179"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.180"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.181"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.182"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.183"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.166/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.166/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"31 Ago."} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.173/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.173/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"28°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.180/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.180/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"11°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - 🌡️ Previsão para o Próximo dia: 31 Ago., Máxima de: 28°Graus, Mínima de: 11°Graus
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.129/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.129/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"30 Ago."} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.136/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.136/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"27°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.143/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.143/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"11°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - POST http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/elements {'using': 'xpath', 'value': '//span[@class="subtitle-m"]'}
+[28/08/2024 15:46] - http://localhost:53920 "POST /session/63f26354e9e7d216a6b9eb21a11d217e/elements HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.127"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.128"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.129"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.130"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.131"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.132"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.133"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - POST http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/elements {'using': 'xpath', 'value': '//span[@class="max changeUnitT"]'}
+[28/08/2024 15:46] - http://localhost:53920 "POST /session/63f26354e9e7d216a6b9eb21a11d217e/elements HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.134"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.135"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.136"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.137"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.138"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.139"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.140"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - POST http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/elements {'using': 'xpath', 'value': '//span[@class="min changeUnitT"]'}
+[28/08/2024 15:46] - http://localhost:53920 "POST /session/63f26354e9e7d216a6b9eb21a11d217e/elements HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.141"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.142"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.143"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.144"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.145"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.146"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.147"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.130/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.130/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"31 Ago."} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.137/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.137/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"28°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.144/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.144/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"11°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - 🌡️ Previsão para o Próximo dia: 31 Ago., Máxima de: 28°Graus, Mínima de: 11°Graus
 
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.166/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.166/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"31 Ago."} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.173/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.173/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"28°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.180/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.180/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"11°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - POST http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/elements {'using': 'xpath', 'value': '//span[@class="subtitle-m"]'}
-[28/08/2024 14:52] - http://localhost:52682 "POST /session/935138a49fcbc1aaa86f7052c5f437c0/elements HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.163"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.164"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.165"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.166"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.167"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.168"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.169"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - POST http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/elements {'using': 'xpath', 'value': '//span[@class="max changeUnitT"]'}
-[28/08/2024 14:52] - http://localhost:52682 "POST /session/935138a49fcbc1aaa86f7052c5f437c0/elements HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.170"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.171"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.172"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.173"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.174"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.175"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.176"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - POST http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/elements {'using': 'xpath', 'value': '//span[@class="min changeUnitT"]'}
-[28/08/2024 14:52] - http://localhost:52682 "POST /session/935138a49fcbc1aaa86f7052c5f437c0/elements HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.177"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.178"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.179"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.180"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.181"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.182"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.183"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.167/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.167/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"1 Set."} | headers=HTTPHeaderDict({'Content-Length': '18', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.174/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.174/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"31°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.181/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.181/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"12°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - 🌡️ Previsão para o Próximo dia: 1 Set., Máxima de: 31°Graus, Mínima de: 12°Graus
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.130/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.130/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"31 Ago."} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.137/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.137/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"28°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.144/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.144/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"11°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - POST http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/elements {'using': 'xpath', 'value': '//span[@class="subtitle-m"]'}
+[28/08/2024 15:46] - http://localhost:53920 "POST /session/63f26354e9e7d216a6b9eb21a11d217e/elements HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.127"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.128"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.129"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.130"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.131"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.132"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.133"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - POST http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/elements {'using': 'xpath', 'value': '//span[@class="max changeUnitT"]'}
+[28/08/2024 15:46] - http://localhost:53920 "POST /session/63f26354e9e7d216a6b9eb21a11d217e/elements HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.134"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.135"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.136"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.137"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.138"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.139"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.140"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - POST http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/elements {'using': 'xpath', 'value': '//span[@class="min changeUnitT"]'}
+[28/08/2024 15:46] - http://localhost:53920 "POST /session/63f26354e9e7d216a6b9eb21a11d217e/elements HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.141"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.142"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.143"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.144"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.145"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.146"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.147"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.131/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.131/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"1 Set."} | headers=HTTPHeaderDict({'Content-Length': '18', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.138/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.138/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"31°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.145/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.145/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"12°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - 🌡️ Previsão para o Próximo dia: 1 Set., Máxima de: 31°Graus, Mínima de: 12°Graus
 
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.167/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.167/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"1 Set."} | headers=HTTPHeaderDict({'Content-Length': '18', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.174/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.174/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"31°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.181/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.181/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"12°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - POST http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/elements {'using': 'xpath', 'value': '//span[@class="subtitle-m"]'}
-[28/08/2024 14:52] - http://localhost:52682 "POST /session/935138a49fcbc1aaa86f7052c5f437c0/elements HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.163"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.164"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.165"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.166"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.167"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.168"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.169"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - POST http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/elements {'using': 'xpath', 'value': '//span[@class="max changeUnitT"]'}
-[28/08/2024 14:52] - http://localhost:52682 "POST /session/935138a49fcbc1aaa86f7052c5f437c0/elements HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.170"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.171"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.172"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.173"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.174"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.175"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.176"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - POST http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/elements {'using': 'xpath', 'value': '//span[@class="min changeUnitT"]'}
-[28/08/2024 14:52] - http://localhost:52682 "POST /session/935138a49fcbc1aaa86f7052c5f437c0/elements HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.177"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.178"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.179"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.180"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.181"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.182"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.183"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.168/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.168/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"2 Set."} | headers=HTTPHeaderDict({'Content-Length': '18', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.175/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.175/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"31°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.182/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.182/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"15°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - 🌡️ Previsão para o Próximo dia: 2 Set., Máxima de: 31°Graus, Mínima de: 15°Graus
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.131/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.131/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"1 Set."} | headers=HTTPHeaderDict({'Content-Length': '18', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.138/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.138/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"31°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.145/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.145/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"12°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - POST http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/elements {'using': 'xpath', 'value': '//span[@class="subtitle-m"]'}
+[28/08/2024 15:46] - http://localhost:53920 "POST /session/63f26354e9e7d216a6b9eb21a11d217e/elements HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.127"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.128"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.129"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.130"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.131"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.132"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.133"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - POST http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/elements {'using': 'xpath', 'value': '//span[@class="max changeUnitT"]'}
+[28/08/2024 15:46] - http://localhost:53920 "POST /session/63f26354e9e7d216a6b9eb21a11d217e/elements HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.134"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.135"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.136"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.137"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.138"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.139"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.140"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - POST http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/elements {'using': 'xpath', 'value': '//span[@class="min changeUnitT"]'}
+[28/08/2024 15:46] - http://localhost:53920 "POST /session/63f26354e9e7d216a6b9eb21a11d217e/elements HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.141"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.142"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.143"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.144"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.145"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.146"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.147"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.132/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.132/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"2 Set."} | headers=HTTPHeaderDict({'Content-Length': '18', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.139/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.139/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"31°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.146/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.146/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"15°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - 🌡️ Previsão para o Próximo dia: 2 Set., Máxima de: 31°Graus, Mínima de: 15°Graus
 
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.168/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.168/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"2 Set."} | headers=HTTPHeaderDict({'Content-Length': '18', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.175/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.175/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"31°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.182/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.182/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"15°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - POST http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/elements {'using': 'xpath', 'value': '//span[@class="subtitle-m"]'}
-[28/08/2024 14:52] - http://localhost:52682 "POST /session/935138a49fcbc1aaa86f7052c5f437c0/elements HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.163"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.164"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.165"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.166"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.167"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.168"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.169"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - POST http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/elements {'using': 'xpath', 'value': '//span[@class="max changeUnitT"]'}
-[28/08/2024 14:52] - http://localhost:52682 "POST /session/935138a49fcbc1aaa86f7052c5f437c0/elements HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.170"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.171"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.172"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.173"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.174"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.175"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.176"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - POST http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/elements {'using': 'xpath', 'value': '//span[@class="min changeUnitT"]'}
-[28/08/2024 14:52] - http://localhost:52682 "POST /session/935138a49fcbc1aaa86f7052c5f437c0/elements HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.177"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.178"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.179"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.180"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.181"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.182"},{"element-6066-11e4-a52e-4f735466cecf":"f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.183"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.169/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.169/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"3 Set."} | headers=HTTPHeaderDict({'Content-Length': '18', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.176/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.176/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"33°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.183/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.183/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"13°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - 🌡️ Previsão para o Próximo dia: 3 Set., Máxima de: 33°Graus, Mínima de: 13°Graus
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.132/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.132/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"2 Set."} | headers=HTTPHeaderDict({'Content-Length': '18', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.139/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.139/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"31°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.146/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.146/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"15°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - POST http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/elements {'using': 'xpath', 'value': '//span[@class="subtitle-m"]'}
+[28/08/2024 15:46] - http://localhost:53920 "POST /session/63f26354e9e7d216a6b9eb21a11d217e/elements HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.127"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.128"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.129"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.130"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.131"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.132"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.133"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - POST http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/elements {'using': 'xpath', 'value': '//span[@class="max changeUnitT"]'}
+[28/08/2024 15:46] - http://localhost:53920 "POST /session/63f26354e9e7d216a6b9eb21a11d217e/elements HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.134"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.135"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.136"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.137"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.138"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.139"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.140"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - POST http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/elements {'using': 'xpath', 'value': '//span[@class="min changeUnitT"]'}
+[28/08/2024 15:46] - http://localhost:53920 "POST /session/63f26354e9e7d216a6b9eb21a11d217e/elements HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.141"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.142"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.143"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.144"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.145"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.146"},{"element-6066-11e4-a52e-4f735466cecf":"f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.147"}]} | headers=HTTPHeaderDict({'Content-Length': '837', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.133/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.133/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"3 Set."} | headers=HTTPHeaderDict({'Content-Length': '18', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.140/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.140/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"33°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.147/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.147/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"13°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - 🌡️ Previsão para o Próximo dia: 3 Set., Máxima de: 33°Graus, Mínima de: 13°Graus
 
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.169/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.169/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"3 Set."} | headers=HTTPHeaderDict({'Content-Length': '18', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.176/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.176/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"33°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.183/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.183/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"13°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - 🤖🤖Obrigado por usar o Nosso Bot🤖🤖
-[28/08/2024 14:52] - 
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.133/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.133/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"3 Set."} | headers=HTTPHeaderDict({'Content-Length': '18', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.140/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.140/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"33°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.147/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.147/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"13°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - 🤖🤖Obrigado por usar o Nosso Bot🤖🤖
+[28/08/2024 15:46] - 
 
-[28/08/2024 14:52] - 🌞 Enviar previsão do 🌞 tempo Via E-mail 📧.28/08/2024 14:52
-[28/08/2024 14:52] - Criando configurações para o Envio de E-mail....
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.114/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.114/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"19°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - GET http://localhost:52682/session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.115/text {}
-[28/08/2024 14:52] - http://localhost:52682 "GET /session/935138a49fcbc1aaa86f7052c5f437c0/element/f.29B2FEBDDE4347872D73C69D41B47781.d.0F06F4ADA456A9CFCDCE6A28A8616232.e.115/text HTTP/1.1" 200 0
-[28/08/2024 14:52] - Remote response: status=200 | data={"value":"Sensação de 19°"} | headers=HTTPHeaderDict({'Content-Length': '30', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
-[28/08/2024 14:52] - Finished Request
-[28/08/2024 14:52] - Preparando a mensagem com a previsão do tempo.
-[28/08/2024 14:52] - Enviando E-mail para regis@servgas.com
-[28/08/2024 14:52] - Email Enviado com sucesso!
-[28/08/2024 14:52] - Email foi enviado com sucesso!There may be at most 1 to headers in a message
+[28/08/2024 15:46] - 🌞 Enviar previsão do 🌞 tempo Via E-mail 📧.28/08/2024 15:46
+[28/08/2024 15:46] - Criando configurações para o Envio de E-mail....
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.121/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.121/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"18°"} | headers=HTTPHeaderDict({'Content-Length': '16', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - GET http://localhost:53920/session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.122/text {}
+[28/08/2024 15:46] - http://localhost:53920 "GET /session/63f26354e9e7d216a6b9eb21a11d217e/element/f.49D3B037E3F051303C6B832EA7634C16.d.357ED795C7C2D1B7EBB43481F63059C9.e.122/text HTTP/1.1" 200 0
+[28/08/2024 15:46] - Remote response: status=200 | data={"value":"Sensação de 18°"} | headers=HTTPHeaderDict({'Content-Length': '30', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[28/08/2024 15:46] - Finished Request
+[28/08/2024 15:46] - Preparando a mensagem com a previsão do tempo.
+[28/08/2024 15:46] - Enviando E-mail para regis@servgas.com
+[28/08/2024 15:46] - Email Enviado com sucesso!
+[28/08/2024 15:46] - Email foi enviado com sucesso!There may be at most 1 to headers in a message
