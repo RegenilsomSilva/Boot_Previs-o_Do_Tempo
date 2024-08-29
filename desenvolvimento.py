@@ -42,6 +42,7 @@ italico ='[italic green]'
 log.info('oiiiiii')
 print(os.linesep)
 
+# teste
 # =========================================================================;
 
 

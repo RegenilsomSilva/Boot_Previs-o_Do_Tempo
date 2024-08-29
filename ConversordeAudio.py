@@ -27,3 +27,4 @@ def audio_para_texto(caminho_audio):
 # Exemplo de uso
 caminho_do_audio = "teste023.waptt"
 audio_para_texto(caminho_do_audio)
+# teste

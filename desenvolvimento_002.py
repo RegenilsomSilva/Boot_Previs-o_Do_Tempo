@@ -31,17 +31,18 @@ print(os.linesep)
 # print(os.linesep)
 # print(os.linesep)
 
-   def attach_files(self):             # Anexar arquivos 
-        print(f'**********CONFIGURADOR DE ANEXO DE LOGS **********{os.linesep}')
-        
-        attachment_dir = os.path.join(os.getcwd(), 'LOGS_ARQUIVOS')  # Anexar arquivos de Logs
-        files = glob.glob(os.path.join(attachment_dir, '*'))  
-        for file_path in files:
-            with open(file_path, 'rb') as file:
-                self.message.add_attachment(
-                    file.read(), maintype='application', subtype='octet-stream', filename=os.path.basename(file_path))
-        print(f'⏳ Acabamos de fazer a Manipulação dos arquivos...... ⏳{os.linesep}....Aguarde{os.linesep}')
-        sleep(random.randint(1,2))   
+def EnviosDeAnexos(self):             # Anexar arquivos 
+    print(f'**********CONFIGURADOR DE ANEXO DE LOGS **********{os.linesep}')
+    
+    attachment_dir = os.path.join(os.getcwd(), 'LOGS_ARQUIVOS')  # Anexar arquivos de Logs
+    files = glob.glob(os.path.join(attachment_dir, '*'))  
+    for file_path in files:
+        with open(file_path, 'rb') as file:
+            self.message.add_attachment(
+                file.read(), maintype='application', subtype='octet-stream', filename=os.path.basename(file_path))
+    print(f'⏳ Acabamos de fazer a Manipulação dos arquivos...... ⏳{os.linesep}....Aguarde{os.linesep}')
+    sleep(random.randint(1,2))   
+    # teste
 
 
 

@@ -25,6 +25,7 @@ class LogModulo():
 
 # registro =LogModulo() Backup- Funcionando
 # Cria o logger
+# Vamos subir para o Controle de Versão
 log = logging.getLogger("rich")
 
 
