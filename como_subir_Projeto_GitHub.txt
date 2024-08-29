@@ -1,0 +1,243 @@
+
+
+1° passo  = Abri uma pasta e dentro da pasta abri o Git Brach here
+2° passo  = Comando Git innit 
+3° passo  = Git status
+4° passo = Git add . ("Adcionar )
+-----  Versão -- Commit
+5° passo  = git commit -m ->Mensagem e com "coloque a versão do seu codígo aqui "
+
+--------Enviar os arquivos Versionado para Nuvem-------------
+6° passo  ==  git push 
+
+7° passo Ir no Github e Criar um  Novo repositório
+8° passo pega o link que foi criado o Novo repositório  = (git remote add origin e cole o link)
+9° passo    git push = Vai da o Erro 
+10° passo git push --set-upstream origin master (enter)
+
+==============================
+Como Criar uma Nova breanch de Desenvolvimento ?
+
+11° passo =  Git branch 
+12° passo = git branch (Nome da nova brench , Desenvolvimento)
+13° passo = git checkout -> Muda de brench 
+14° passo = git checkout Desenvolvimento
+======================================================================================================
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção
+$ git innit
+git: 'innit' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção
+$ git init
+Initialized empty Git repository in C:/Users/RegenilsonSilveira/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção/.git/
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        ConversordeAudio.py
+        Previsao_Tempo.py
+        teste.py
+        teste022.waptt.opus
+        teste023.waptt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (master)
+$
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (master)
+$ git add .
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   ConversordeAudio.py
+        new file:   Previsao_Tempo.py
+        new file:   teste.py
+        new file:   teste022.waptt.opus
+        new file:   teste023.waptt
+
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (master)
+$
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (master)
+$ git commit -m "Vesão 14-08/2024 @1.0"
+[master (root-commit) c8955cb] Vesão 14-08/2024 @1.0
+ 6 files changed, 427 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 ConversordeAudio.py
+ create mode 100644 Previsao_Tempo.py
+ create mode 100644 teste.py
+ create mode 100644 teste022.waptt.opus
+ create mode 100644 teste023.waptt
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (master)
+$ git remote add origin https://github.com/RegenilsomSilva/Boot_Previsao_Do_Tempo
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (master)
+$ ^C
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (master)
+$ git push --set-upstream origin master
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 1.26 MiB | 2.11 MiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/RegenilsomSilva/Boot_Previsao_Do_Tempo/pull/new/master
+remote:
+To https://github.com/RegenilsomSilva/Boot_Previsao_Do_Tempo
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (master)
+$ brach
+bash: brach: command not found
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (master)
+$ branch
+bash: branch: command not found
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (master)
+$
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (master)
+$ git reflog
+c8955cb (HEAD -> master, origin/master) HEAD@{0}: commit (initial): Vesão 14-08/2024 @1.0
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (master)
+$ git branch
+* master
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (master)
+$
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (master)
+$ git branch Desenvolvimento
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (master)
+$ git branch
+  Desenvolvimento
+* master
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (master)
+$ git chechout
+git: 'chechout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (master)
+$ git chechout Desenvolvimento
+git: 'chechout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (master)
+$ git checkout Desenvolvimento
+Switched to branch 'Desenvolvimento'
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (Desenvolvimento)
+$ ^C
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (Desenvolvimento)
+$ git branch
+* Desenvolvimento
+  master
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (Desenvolvimento)
+$ git status
+On branch Desenvolvimento
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Previsao_Tempo.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (Desenvolvimento)
+$ git add .
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (Desenvolvimento)
+$ git commit -m "Arquivo esta indo para a Base de Desenvolvimento"
+[Desenvolvimento 1290528] Arquivo esta indo para a Base de Desenvolvimento
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (Desenvolvimento)
+$ git push
+fatal: The current branch Desenvolvimento has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin Desenvolvimento
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (Desenvolvimento)
+$ ^C
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (Desenvolvimento)
+$ git push --set-upstream origin Desenvolvimento
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 329 bytes | 329.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'Desenvolvimento' on GitHub by visiting:
+remote:      https://github.com/RegenilsomSilva/Boot_Previsao_Do_Tempo/pull/new/Desenvolvimento
+remote:
+To https://github.com/RegenilsomSilva/Boot_Previsao_Do_Tempo
+ * [new branch]      Desenvolvimento -> Desenvolvimento
+branch 'Desenvolvimento' set up to track 'origin/Desenvolvimento'.
+
+AzureAD+RegenilsonSilveira@MTZ-TI-DESK-RE MINGW64 ~/OneDrive - SERVGAS/Área de Trabalho/AUTOMACAO/Automação Previsão do Tempo-Produção (Desenvolvimento)
+$
