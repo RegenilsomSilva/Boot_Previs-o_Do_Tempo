@@ -23,7 +23,7 @@ print("======                         BUSCADOR MELHOR PREÇO      trrrrr        
 print(os.linesep)
 
 # ENCONTRAR SELENIUM EM QUALQUER NAVEGADOR ==== https://pypi.org/project/webdriver-manager/
-
+#  controle de versão
 class testeChromium:
     def __init__(self):
 
